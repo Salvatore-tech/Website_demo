@@ -61,7 +61,7 @@ body{
 }
 
 .post-date{
-  color: #d2d2d2;
+  color: #F9C784;
 
   font-size: 14px;
   font-weight: bold;
@@ -104,4 +104,16 @@ a{
 }
 a:hover{
   color: #f6a623;
+}
+
+.about{
+  text-align: center;
+}
+
+.post-author img, .about-author img{
+  border-radius: 50%;
+}
+.post-container:nth-child(2n){
+  background-color: #BCF4DE;
+
 }
